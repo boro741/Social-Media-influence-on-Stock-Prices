@@ -1,0 +1,17 @@
+Stock Market Company --- Register and login
+
+
+
+Users  --- Register and Login
+
+           View Your Profile
+
+
+Admin  --- Login
+ 
+       --- View Users and Authorize
+
+       --- View Stock Market Company users and authorize
+
+      
+           
