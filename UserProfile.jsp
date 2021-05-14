@@ -65,13 +65,13 @@
 						   	ResultSet rs=st.executeQuery(query);
 					   		if ( rs.next() )
 					   		{
-								i=rs.getInt(1);
-								s1=rs.getString(4);
-								s2=rs.getString(5);
-								s3=rs.getString(6);
-								s5=rs.getString(7);
-								s4=rs.getString(9);
-								s44=rs.getString(11);
+								i=rs.getInt("id");
+								s1=rs.getString("email");
+								s2=rs.getString("mobile");
+								s3=rs.getString("address");
+								s5=rs.getString("dob");
+								s4=rs.getString("status");
+								s44=rs.getString("atype");
 								
 								
 								
