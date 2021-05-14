@@ -81,7 +81,7 @@
 						   	ResultSet rs=st.executeQuery(query);
 					   		while ( rs.next() )
 					   		{
-									i=rs.getInt(1);
+									i=rs.getInt("id");
 									s2=rs.getString(2);
 
 									Statement stmt9=connection.createStatement();

@@ -68,13 +68,13 @@
 						   	ResultSet rs=st.executeQuery(query);
 					   		if ( rs.next() )
 					   		{
-								i=rs.getString(1);
-								s1=rs.getString(2);
-								s2=rs.getString(3);
-								s3=rs.getString(4);
-								s4=rs.getString(5);
-								s5=rs.getString(6);
-								s6=rs.getInt(7);
+								i=rs.getString("account_no");
+								s1=rs.getString("user");
+								s2=rs.getString("address");
+								s3=rs.getString("email");
+								s4=rs.getString("mobile");
+								s5=rs.getString("branch");
+								s6=rs.getInt("amount");
 								
 								
 					%>

@@ -69,9 +69,9 @@
 					   		{
 								
 								
-								s1=rs.getString(4);
-								s2=rs.getString(5);
-								s3=rs.getString(6);
+								s1=rs.getString("email");
+								s2=rs.getString("mobile");
+								s3=rs.getString("address");
 								
 								
 								

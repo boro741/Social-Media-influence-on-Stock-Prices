@@ -124,7 +124,7 @@
 							{
 								f = 1;
 								image = multi.getFilesystemName(paramname);
-								String fPath = context.getRealPath("Gallery\\"+image);
+								String fPath = context.getRealPath("Gallery/"+image);
 								file1 = new File(fPath);
 								fs = new FileInputStream(file1);
 								list.add(fs);

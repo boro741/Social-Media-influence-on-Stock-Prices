@@ -77,7 +77,7 @@
 			{
 			
 			
-					amount1=Integer.parseInt(rs.getString(7));
+					amount1=Integer.parseInt(rs.getString("amount"));
 					
 					
 					
