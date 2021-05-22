@@ -68,7 +68,7 @@
                     <%
  
       	
-	String s1="",s2="",s3="",s4="",s5="",s6="",s7="",s8,s9,s10,s11,s12,s13;
+	String s1="",s2="",s3="",s4="",s5="",s6="",s7="",s8,s9,s10,s11,s12,s13,reqFromUser,reqToUser;
 	int i=0,j=0,k=0;
 
      try 
@@ -92,24 +92,24 @@
 							 	while( rs1.next() )
 							 	{
 									j=rs1.getInt("id");  
-							
+                  reqFromUser = rs1.getString("username");
 									String query2="select * from user where username='"+s3+"'"; 
 									Statement st2=connection.createStatement();
 									ResultSet rs2=st2.executeQuery(query2);
 									while( rs2.next() )
 								 	{
 										k=rs2.getInt("id");  
-								
+                    reqToUser = rs2.getString("username");
 		
 %>
                     <tr>
                       <td height="111"><div align="center" class="style48 style52 style54"><%=i%></div></td>
                       <td><div align="center" class="style48 style52 style54">
-                          <input  name="image" type="image" src="user_Pic.jsp?id=<%=j%>" width="100" height="100" alt="Submit" />
+                          <input  name="image" type="image" src="user_Pic.jsp?username=<%=reqFromUser%>" width="100" height="100" alt="Submit" />
                       </div></td>
                       <td><div align="center" class="style48 style52 style56"><%=s2 %></div></td>
                       <td><div align="center" class="style52 style54">
-                          <input  name="image2" type="image" src="user_Pic.jsp?id=<%=k%>" width="100" height="100" alt="Submit" />
+                          <input  name="image2" type="image" src="user_Pic.jsp?username=<%=reqToUser%>" width="100" height="100" alt="Submit" />
                       </div></td>
                       <td><div align="center" class="style48 style52 style56"><%=s3 %></div></td>
                       <td><div align="center" class="style48 style52 style54"><%= s5%></div></td>
