@@ -65,7 +65,7 @@
 						   	ResultSet rs=st.executeQuery(query);
 					   		if ( rs.next() )
 					   		{
-								i=rs.getInt("id");
+								i=rs.getInt(1);
 								s1=rs.getString("email");
 								s2=rs.getString("mobile");
 								s3=rs.getString("address");

@@ -88,7 +88,7 @@
                         <%out.println(i);%>
                           </span></div></td>
                       <td width="116" rowspan="1" align="center" valign="middle" ><div class="style5 style37 style54 style55 style22" style="margin:10px 13px 10px 13px;" > <a class="#" id="img1" href="#" >
-                          <input  name="image" type="image" src="user_Pic.jsp?id=<%=i%>" style="width:90px; height:90px;" />
+                          <input  name="image" type="image" src="user_Pic.jsp?username=<%=s1%>" style="width:90px; height:90px;" />
                       </a> </div></td>
                       <td height="0" align="center"  valign="middle"><div align="center" class="style5 style20 style37 style54 style55 style22">
                             <span class="style22">
