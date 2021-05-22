@@ -85,7 +85,7 @@ String credit="";
 			ResultSet rs =stmt.executeQuery(sql);
 			if(rs.next()==true)
 			{
-								amount1=Integer.parseInt(rs.getString(7));
+								amount1=Integer.parseInt(rs.getString("amount"));
 					
 					
 					

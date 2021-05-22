@@ -115,14 +115,14 @@
 											ResultSet rs=st.executeQuery(query);
 											while ( rs.next() )
 											{
-												i=rs.getInt(1);
-												s1=rs.getString(2);
-												s2=rs.getString(4);
-												s3=rs.getString(5);
-												s4=rs.getString(6);
-												s5=rs.getString(7);
-												s6=rs.getString(8);
-												s7=rs.getString(9);
+												i=rs.getInt("id");
+												s1=rs.getString("username");
+												s2=rs.getString("email");
+												s3=rs.getString("mobile");
+												s4=rs.getString("address");
+												s5=rs.getString("dob");
+												s6=rs.getString("gender");
+												s7=rs.getString("status");
 												
 										
 										

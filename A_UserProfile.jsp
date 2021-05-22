@@ -69,12 +69,12 @@
 						   	ResultSet rs=st.executeQuery(query);
 					   		if ( rs.next() )
 					   		{
-								i=rs.getInt(1);
-								s1=rs.getString(4);
-								s2=rs.getString(5);
-								s3=rs.getString(6);
-								s4=rs.getString(7);
-								s5=rs.getString(8);
+								i=rs.getInt("id");
+								s1=rs.getString("email");
+								s2=rs.getString("mobile");
+								s3=rs.getString("address");
+								s4=rs.getString("dob");
+								s5=rs.getString("gender");
 								
 								
 					%>

@@ -69,7 +69,7 @@
 			{
 			
 			
-					account=rs.getString(1);
+					account=rs.getString("account_no");
 					
 					}
 					

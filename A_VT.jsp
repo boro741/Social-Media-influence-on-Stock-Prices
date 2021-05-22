@@ -75,7 +75,7 @@
 						   	ResultSet rs=st.executeQuery(query);
 					   		while ( rs.next() )
 					   		{
-									s2=rs.getString("cprod");
+									s2=rs.getString("cname");
 
 									
 										

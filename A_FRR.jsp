@@ -80,25 +80,25 @@
 					   while( rs.next() )
 					   {
 						
-								i=rs.getInt(1);
-								s2=rs.getString(2);
-								s3=rs.getString(3);
-								s4=rs.getString(4);
-								s5=rs.getString(5);
+								i=rs.getInt("id");
+								s2=rs.getString("requestfrom");
+								s3=rs.getString("requestto");
+								s4=rs.getString("dt");
+								s5=rs.getString("status");
 				
 								String query1="select * from user where username='"+s2+"'"; 
 								Statement st1=connection.createStatement();
 								ResultSet rs1=st1.executeQuery(query1);
 							 	while( rs1.next() )
 							 	{
-									j=rs1.getInt(1);  
+									j=rs1.getInt("id");  
 							
 									String query2="select * from user where username='"+s3+"'"; 
 									Statement st2=connection.createStatement();
 									ResultSet rs2=st2.executeQuery(query2);
 									while( rs2.next() )
 								 	{
-										k=rs2.getInt(1);  
+										k=rs2.getInt("id");  
 								
 		
 %>

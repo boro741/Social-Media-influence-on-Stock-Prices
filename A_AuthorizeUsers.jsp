@@ -82,13 +82,8 @@
 								s4=rs.getString("status");
 					%>
 
-          <%
-
-                out.println("T "+s4);
-          %>
-          
-          
-                    /* <tr>
+                    
+                     <tr>
                       <td height="0" align="center"  valign="middle"><div align="center" class="style5 style37 style54 style55 style22"><span class="style22">
                         <%out.println(i);%>
                           </span></div></td>
@@ -106,7 +101,7 @@
                       <td height="0" align="center"  valign="middle"><div align="center" class="style5 style20 style37 style54 style55 style22">
                             <span class="style22">
                             <%out.println(s3);%>
-                            </span></div></td> */
+                            </span></div></td> 
                       
           <%
 						if(s4.equalsIgnoreCase("waiting"))
